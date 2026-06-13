@@ -2,7 +2,7 @@ license="MIT"
 
 [[mods]]
 modId="day_counter"
-version="1.0.0"
+version="1.2.1"
 displayName="Day Counter"
 description='''
 Shows how many in-game days have passed. Fully customizable: position, scale,
