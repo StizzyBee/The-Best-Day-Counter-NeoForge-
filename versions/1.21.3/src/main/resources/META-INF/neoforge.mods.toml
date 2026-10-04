@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="day_counter"
+version="${version}"
+displayName="Day Counter"
+description='''
+Shows how many in-game days have passed. Fully customizable: position, scale,
+language, font, text case, and alignment — all adjustable from the pause menu
+settings screen.'''
+
+[[dependencies.day_counter]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.3.97,21.4)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.day_counter]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.3]"
+    ordering="NONE"
+    side="CLIENT"
